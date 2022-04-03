@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E3249;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main{
+    width: 550px;
+    height: 300px;
+    background-color: #45495B;
+    border-radius: 5px;
+    box-shadow: 0 0 12px black;
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+h2{
+    color: #ddd;
+    margin: -15px 0px 25px 0px; 
+    font-size: 18px;
+}
+
+input{
+    width: 100px;
+    height: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    background-color: #45495B;
+    border: none;
+    font-size: 34px;
+    color: white;
+    outline: none;
+}
+
+select{
+    width: 80px;
+    margin-left: 40px;
+    margin-right: 45px;
+    text-align: center;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+option{
+    background-color: #45495B;
+    border: none;
+}
+
+#swap{
+    background-image: linear-gradient(to right, #51A0CB, #62B177);
+    outline: none;
+    border: none;
+    color: white;
+    padding: 2px 35px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#swap:hover{
+    cursor: pointer;
+}
+
+.exchangeRate{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+
+input:focus, select:focus{
+    color: #51A0CB;
+}
